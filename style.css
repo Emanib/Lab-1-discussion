@@ -50,22 +50,43 @@
     flex-wrap: wrap;
 }
 .first-item{
-    order: 1;
+    order: 2;
 }
 .second-item{
-    order: 2;
+    order: 1;
 }
 .footer{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer-item{
     border: 1px solid #fff;
     background-color: #d6e9fe;
     height: 200px;
-    flex: 2;
+  
+
 }
 .footer-two{
-    flex: 1.5;
-    background-color:#661328 ;
+  
+    background-color:#d6e9fe ;
+}
+.footer-four
+{
+  flex:1;
+    left: right; 
+}
+p 
+{
+    width:100% ;
+    margin-left:500px;
+    margin-top: 100px;
+    color:red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+
+}
+p:hover 
+{
+    color: salmon;
+    cursor: pointer;
 }
